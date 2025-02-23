@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIP Luxury Socks Store</title>
+    <style>
+        img {
+            position:  relative - 150;
+        }
+        p {
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        const socks = document.getElementsByClassName("sock")
+        const svchange = document.getElementsByClassName("main")
+        function bich() {
+            location.replace("./bich.html")
+            socks[0].style.visibility = 'hidden';
+            socks[1].style.visibility = 'hidden';
+            socks[2].style.visibility = 'hidden';
+            socks[3].style.visibility = 'hidden';
+            socks[4].style.visibility = 'hidden';
+            socks[5].style.visibility = 'hidden';
+            socks[6].style.visibility = 'hidden';
+            socks[7].style.visibility = 'hidden';
+            socks[8].style.visibility = 'hidden';
+        }
+    </script>
+    <center><p class="sock" style="animation: bich 250ms infinite;">VIP Premium Luxury Socks</p></center>
+    <center><button style="background-color: gold; border-color: gold; border-style: solid; font-size: large;" class="sock">Сначала популярные</button>
+    <button style="background-color: white; border-color: white; border-style: solid; font-size: large; text-underline-offset: 10px; color: blue; text-decoration: underline;" onclick="bich()" class="sock">Сначала дешёвые</button></center>
+    <center><img src="White.png" style="margin-right: 150px;" class="sock"></img><img src="Black.png" class="sock"></img><img src="Yellow.png" style="margin-left: 150px;" class="sock"></img></center>
+    <center><button style="background-color: white; border-color: white; border-style: solid; font-size: xx-large; margin-right: 170px;" class="sock">53 400p</button>
+    <button style="background-color: white; border-color: white; border-style: solid; font-size: xx-large;" class="sock">48 000p</button>
+    <button style="background-color: white; border-color: white; border-style: solid; font-size: xx-large; margin-left: 170px;" class="sock">73 200p</button></center>
+</body>
+</html>
